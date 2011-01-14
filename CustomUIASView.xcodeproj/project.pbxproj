@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA9CAF2912DFAE5A003F6181 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9CAF2812DFAE5A003F6181 /* UIKit.framework */; };
+		EA9CAF2B12DFAE5A003F6181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9CAF2A12DFAE5A003F6181 /* Foundation.framework */; };
+		EA9CAF2D12DFAE5A003F6181 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9CAF2C12DFAE5A003F6181 /* CoreGraphics.framework */; };
+		EA9CAF3312DFAE5A003F6181 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9CAF3112DFAE5A003F6181 /* InfoPlist.strings */; };
+		EA9CAF3612DFAE5A003F6181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CAF3512DFAE5A003F6181 /* main.m */; };
+		EA9CAF3912DFAE5A003F6181 /* CustomUIASViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CAF3812DFAE5A003F6181 /* CustomUIASViewAppDelegate.m */; };
+		EA9CAF3C12DFAE5A003F6181 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9CAF3A12DFAE5A003F6181 /* MainWindow.xib */; };
+		EA9CAF3F12DFAE5A003F6181 /* CustomUIASViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CAF3E12DFAE5A003F6181 /* CustomUIASViewViewController.m */; };
+		EA9CAF4212DFAE5A003F6181 /* CustomUIASViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9CAF4012DFAE5A003F6181 /* CustomUIASViewViewController.xib */; };
+		EA9CAF4A12DFAE80003F6181 /* CustomUIASView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CAF4912DFAE80003F6181 /* CustomUIASView.m */; };
+		EA9CAF5112DFB880003F6181 /* as-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9CAF5012DFB880003F6181 /* as-bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA9CAF2412DFAE5A003F6181 /* CustomUIASView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUIASView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9CAF2812DFAE5A003F6181 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA9CAF2A12DFAE5A003F6181 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA9CAF2C12DFAE5A003F6181 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA9CAF3012DFAE5A003F6181 /* CustomUIASView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomUIASView-Info.plist"; sourceTree = "<group>"; };
+		EA9CAF3212DFAE5A003F6181 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA9CAF3412DFAE5A003F6181 /* CustomUIASView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomUIASView-Prefix.pch"; sourceTree = "<group>"; };
+		EA9CAF3512DFAE5A003F6181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA9CAF3712DFAE5A003F6181 /* CustomUIASViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomUIASViewAppDelegate.h; sourceTree = "<group>"; };
+		EA9CAF3812DFAE5A003F6181 /* CustomUIASViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomUIASViewAppDelegate.m; sourceTree = "<group>"; };
+		EA9CAF3B12DFAE5A003F6181 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EA9CAF3D12DFAE5A003F6181 /* CustomUIASViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomUIASViewViewController.h; sourceTree = "<group>"; };
+		EA9CAF3E12DFAE5A003F6181 /* CustomUIASViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomUIASViewViewController.m; sourceTree = "<group>"; };
+		EA9CAF4112DFAE5A003F6181 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CustomUIASViewViewController.xib; sourceTree = "<group>"; };
+		EA9CAF4812DFAE80003F6181 /* CustomUIASView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUIASView.h; sourceTree = "<group>"; };
+		EA9CAF4912DFAE80003F6181 /* CustomUIASView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUIASView.m; sourceTree = "<group>"; };
+		EA9CAF5012DFB880003F6181 /* as-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "as-bg.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9CAF2112DFAE5A003F6181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9CAF2912DFAE5A003F6181 /* UIKit.framework in Frameworks */,
+				EA9CAF2B12DFAE5A003F6181 /* Foundation.framework in Frameworks */,
+				EA9CAF2D12DFAE5A003F6181 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA9CAF1912DFAE5A003F6181 = {
+			isa = PBXGroup;
+			children = (
+				EA9CAF2E12DFAE5A003F6181 /* CustomUIASView */,
+				EA9CAF2712DFAE5A003F6181 /* Frameworks */,
+				EA9CAF2512DFAE5A003F6181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9CAF2512DFAE5A003F6181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9CAF2412DFAE5A003F6181 /* CustomUIASView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9CAF2712DFAE5A003F6181 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA9CAF2812DFAE5A003F6181 /* UIKit.framework */,
+				EA9CAF2A12DFAE5A003F6181 /* Foundation.framework */,
+				EA9CAF2C12DFAE5A003F6181 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9CAF2E12DFAE5A003F6181 /* CustomUIASView */ = {
+			isa = PBXGroup;
+			children = (
+				EA9CAF5412DFB8CD003F6181 /* Controllers */,
+				EA9CAF5312DFB8A3003F6181 /* UIViews */,
+				EA9CAF5212DFB892003F6181 /* Images */,
+				EA9CAF3712DFAE5A003F6181 /* CustomUIASViewAppDelegate.h */,
+				EA9CAF3812DFAE5A003F6181 /* CustomUIASViewAppDelegate.m */,
+				EA9CAF3A12DFAE5A003F6181 /* MainWindow.xib */,
+				EA9CAF2F12DFAE5A003F6181 /* Supporting Files */,
+			);
+			path = CustomUIASView;
+			sourceTree = "<group>";
+		};
+		EA9CAF2F12DFAE5A003F6181 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9CAF3012DFAE5A003F6181 /* CustomUIASView-Info.plist */,
+				EA9CAF3112DFAE5A003F6181 /* InfoPlist.strings */,
+				EA9CAF3412DFAE5A003F6181 /* CustomUIASView-Prefix.pch */,
+				EA9CAF3512DFAE5A003F6181 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9CAF5212DFB892003F6181 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA9CAF5012DFB880003F6181 /* as-bg.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EA9CAF5312DFB8A3003F6181 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				EA9CAF5512DFB8E6003F6181 /* XIBs */,
+				EA9CAF4812DFAE80003F6181 /* CustomUIASView.h */,
+				EA9CAF4912DFAE80003F6181 /* CustomUIASView.m */,
+			);
+			name = UIViews;
+			sourceTree = "<group>";
+		};
+		EA9CAF5412DFB8CD003F6181 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA9CAF3D12DFAE5A003F6181 /* CustomUIASViewViewController.h */,
+				EA9CAF3E12DFAE5A003F6181 /* CustomUIASViewViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EA9CAF5512DFB8E6003F6181 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				EA9CAF4012DFAE5A003F6181 /* CustomUIASViewViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9CAF2312DFAE5A003F6181 /* CustomUIASView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9CAF4512DFAE5A003F6181 /* Build configuration list for PBXNativeTarget "CustomUIASView" */;
+			buildPhases = (
+				EA9CAF2012DFAE5A003F6181 /* Sources */,
+				EA9CAF2112DFAE5A003F6181 /* Frameworks */,
+				EA9CAF2212DFAE5A003F6181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomUIASView;
+			productName = CustomUIASView;
+			productReference = EA9CAF2412DFAE5A003F6181 /* CustomUIASView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9CAF1B12DFAE5A003F6181 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EA9CAF1E12DFAE5A003F6181 /* Build configuration list for PBXProject "CustomUIASView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA9CAF1912DFAE5A003F6181;
+			productRefGroup = EA9CAF2512DFAE5A003F6181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9CAF2312DFAE5A003F6181 /* CustomUIASView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9CAF2212DFAE5A003F6181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9CAF3312DFAE5A003F6181 /* InfoPlist.strings in Resources */,
+				EA9CAF3C12DFAE5A003F6181 /* MainWindow.xib in Resources */,
+				EA9CAF4212DFAE5A003F6181 /* CustomUIASViewViewController.xib in Resources */,
+				EA9CAF5112DFB880003F6181 /* as-bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9CAF2012DFAE5A003F6181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9CAF3612DFAE5A003F6181 /* main.m in Sources */,
+				EA9CAF3912DFAE5A003F6181 /* CustomUIASViewAppDelegate.m in Sources */,
+				EA9CAF3F12DFAE5A003F6181 /* CustomUIASViewViewController.m in Sources */,
+				EA9CAF4A12DFAE80003F6181 /* CustomUIASView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA9CAF3112DFAE5A003F6181 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9CAF3212DFAE5A003F6181 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA9CAF3A12DFAE5A003F6181 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9CAF3B12DFAE5A003F6181 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EA9CAF4012DFAE5A003F6181 /* CustomUIASViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9CAF4112DFAE5A003F6181 /* en */,
+			);
+			name = CustomUIASViewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9CAF4312DFAE5A003F6181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA9CAF4412DFAE5A003F6181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EA9CAF4612DFAE5A003F6181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomUIASView/CustomUIASView-Prefix.pch";
+				INFOPLIST_FILE = "CustomUIASView/CustomUIASView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA9CAF4712DFAE5A003F6181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomUIASView/CustomUIASView-Prefix.pch";
+				INFOPLIST_FILE = "CustomUIASView/CustomUIASView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9CAF1E12DFAE5A003F6181 /* Build configuration list for PBXProject "CustomUIASView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9CAF4312DFAE5A003F6181 /* Debug */,
+				EA9CAF4412DFAE5A003F6181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9CAF4512DFAE5A003F6181 /* Build configuration list for PBXNativeTarget "CustomUIASView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9CAF4612DFAE5A003F6181 /* Debug */,
+				EA9CAF4712DFAE5A003F6181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9CAF1B12DFAE5A003F6181 /* Project object */;
+}
